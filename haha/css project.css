@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: varela;
+  
+    background: #eee;
+  }
+  
+  @font-face {
+    font-family: "varela";
+    src: url("./varela-round.ttf");
+  }
+  
+  button {
+    font-family: varela;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 0.6rem 0;
+    background: #24c4d3;
+  }
+  
+  .header .header-title {
+    color: #fff;
+  }
+  
+  /* QUESTION STYLES */
+  .question-container {
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ 
+  }
+  
+  .question-container .question-list {
+    background: #fff;
+    padding: 0.2rem;
+    border-radius: 5px;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.3);
+    width: 50%;
+    list-style: none;
+    
+  }
+  
+@media screen and (max-width: 575px) {
+    .question-container .question-list {
+      width: 95%;
+    }
+}
+ 
+@media screen and (max-width: 768px) {
+    .question-container .question-list {
+      width: 75%;
+    }
+  } 
+  .question-container .question-list .question-item{
+transition: all 0.3s ease;
+ padding: 0.2rem;
+ border-radius: 5px; 
+cursor: pointer;
+
+}
+/*border margin padding*/
+
+.question-container .question-list .question-item:not(:last-child) {
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.question-container .question-list .question-item:hover{
+  background: #aeeaea;
+
+}
+.question-container .question-list .question-item .question-box{
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0.5rem 0;
+color: #b69883;
+}
+  .question-container .question-list .question-box .question-icon{
+font-size: 1.3rem;
+margin-right: 0.5rem;
+transition: all 0.3s ease;
+color: #5b156a;
+
+  }
+.question-container .question-list .question-item.showAnswer .question-icon {
+transform:rotate(90deg);
+color:red;
+}
+.question-container .question-item .answer-box {
+  transition: all 0.3s ease; 
+  height: 0;
+  overflow: hidden;
+}
+
+.question-container .question-list .answer-box .answer-text {
+  color: #5c2331;
+  line-height: 1.7rem;
+}
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 1rem;
+}

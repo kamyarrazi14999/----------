@@ -19,12 +19,12 @@ button {
 
 /* HEADER */
 .header {
-  background: #24c4d3;
-  padding: 0.6rem;
+  background: #24d376;
+  padding: 0.8rem;
 }
 
 .header .header-title {
-  color: #fff;
+  color: #191717;
   text-align: center;
 }
 
@@ -49,26 +49,29 @@ button {
   font-weight: bold;
   border-radius: 5px;
   border: 1px solid #666;
-  background: #66dfea;
+  background: #859eed;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .counter-container .buttons-container .reset-btn {
-  background: #ef4a4a;
-  color: #fff;
+  background: #cdb56b;
+  color: #7a7a70;
 }
 
 .counter-container .buttons-container .btn:hover {
-  background: #5fd1db;
+  background: #6fc2b1;
 }
 
 .counter-container .buttons-container .reset-btn:hover {
-  background: #d73e3e;
+  background: #88d4ed;
 }
 
 /* footer */
 footer {
   text-align: center;
-  padding: 1rem;
+  padding: 0.05rem;
+  font-size: 1rem;
+  font-weight: 800;
+  bottom: 0;
 }

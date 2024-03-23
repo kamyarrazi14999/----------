@@ -31,11 +31,28 @@
   margin: 0 1rem;
   text-align: center;
 }
-.new-year-wrapper{
-font-weight: 400;
-
-
+.new-year-wrapper {
+  font-size: 4vw;
+  background-image: url(./haha.jpeg);
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  -webkit-background-clip: text;
 }
+@keyframes slidein {
+  from {
+    margin-left: 10%;
+  }
+
+  to {
+    margin-left: 20%;
+  }
+}
+
 .dead-line-wrapper {
   display: flex;
   justify-content: center;
@@ -43,15 +60,13 @@ font-weight: 400;
   margin-left: 1rem;
   margin-right: 1rem;
 }
-.dead-line-item{
-background:#444 ;
-color: #fff;
-padding: .06rem 1.3rem;
-
+.dead-line-item {
+  background: #205960;
+  color: #fff;
+  padding: 0.06rem 1.3rem;
 }
-.dead-line-number{
-margin-bottom: .06rem;
-
+.dead-line-number {
+  margin-bottom: 0.06rem;
 }
 footer {
   padding: 1rem;

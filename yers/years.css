@@ -52,6 +52,29 @@
     margin-left: 20%;
   }
 }
+.new-year-wrapper:not(.new-year-1556) {
+  display: flex;
+}
+.new-year-1556 img {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  mix-blend-mode: darken;
+}
+audio {
+  width: 200px;
+  height: 25px;
+  align-items: center;
+  width: 250px;
+  height: 45px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  background-color: aqua;
+}
+
 
 .dead-line-wrapper {
   display: flex;

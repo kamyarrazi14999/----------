@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: varele;
+  background: #bde8ef;
+}
+@font-face {
+  font-family: varele;
+  src: url(./varela-round.ttf);
+}
+
+.header {
+  text-align: center;
+  padding: 0.6rem 0;
+  background: #e58f80;
+}
+.header-title {
+  color: #862e2e;
+  transition: all 3s ease-out;
+  animation-name: kami;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+}
+@keyframes kami {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+.comments-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+
+
+
+
+
+
+
+
+
+footer  {
+  bottom: 0;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 3rem;
+  
+}
+a{
+color: #e58f80;
+text-decoration: none;
+cursor: pointer;
+}
+a:hover{
+color: #6d2e23;
+
+}

@@ -4,7 +4,7 @@ const oneMinute = 60 * 1000;
 /!haha tame/;
 
 const counter = () => {
-  const newYearDate = new Date("1 jan 2024").getTime();
+  const newYearDate = new Date("1 jan 2025").getTime();
   const currnentDate = new Date().getTime();
   const diffrentData = newYearDate - currnentDate;
   const days = Math.floor(diffrentData / oneDay);
